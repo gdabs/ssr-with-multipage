@@ -1,0 +1,14 @@
+{
+  "presets": [
+    ["@babel/preset-env", { "modules": false }],
+    ["react-app", { "flow": false, "typescript": true, "useESModules": true }]
+  ],
+  "plugins": [
+    [ "import", { "libraryName": "antd", "style": true },  "antd" ],
+    [
+      "import",
+      { "libraryName": "lodash", "libraryDirectory": "", "camel2DashComponentName": false },
+      "lodash"
+    ]
+  ]
+}
